@@ -145,7 +145,7 @@ scrollArrow.addEventListener("click", function () {
     });
 });
 
-
+/*
 function slider(){
    
 let currentIndex = 0;
@@ -174,7 +174,7 @@ setInterval(() => {
   moveSlide(1);
 }, 7000);
 }
-
+*/
 var btn=document.querySelector(".cafe-text button")
 btn.addEventListener("mouseenter",function(){
     gsap.to(btn,{
@@ -193,4 +193,3 @@ btn.addEventListener("mouseleave",function(){
 
     })
 })
-slider()
